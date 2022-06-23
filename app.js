@@ -25,12 +25,12 @@ app.use(cors());
 //Middleware
 //const __dirname = dirname(fileURLToPath(import.meta.url));
 
-app.get("/api/v1", (req, res) => {
-  res.json({ msg: "hello there API" });
-});
-app.get("/*", (req, res) => {
-  res.json({ msg: "hello there API" });
-});
+// app.get("/api/v1", (req, res) => {
+//   res.json({ msg: "hello there API" });
+// });
+// app.get("/*", (req, res) => {
+//   res.json({ msg: "hello there API" });
+// });
 
 // app.use("/_next", express.static(path.join(__dirname, "../out")));
 //app.use(express.static(path.resolve(__dirname, "./client/build")));
