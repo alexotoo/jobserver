@@ -10,9 +10,7 @@ mongoose.connection.once("open", () => {
   console.log("DB connection ready");
 });
 
-mongoose.connection.on("error", (err) => {
-  console.log(err);
-});
+mongoose.connection.on("error", (err) => {});
 
 async function startServerWithDataConnection() {
   try {
